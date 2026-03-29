@@ -1,0 +1,21 @@
+baseURL = "https://shangyineca.vip/blog"
+languageCode = "zh-cn"
+title = "校园博客"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = false
+
+  # 建议开目录（长文对老师很友好）
+  ShowToc = false
+  
+[[menu.main]]
+name = "协和尚音ECA首页"
+url = "https://shangyineca.vip/"
+weight = 10

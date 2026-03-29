@@ -1,0 +1,20 @@
+{
+    "envId": "shangyin-6gbcyt4s16c1d1ea",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "region": "ap-shanghai",
+    "framework": {
+        "name": "campus-blog",
+        "plugins": {}
+    },
+    "ai": {
+        "defaultAgent": "{{env.AI_DEFAULT_AGENT}}",
+        "agents": {
+            "codebuddy": {
+                "type": "none"
+            }
+        }
+    }
+}

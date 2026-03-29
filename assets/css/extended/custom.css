@@ -1,0 +1,45 @@
+/* =========================
+   校园学术刊物风（稳定版）
+   - 日间：只做轻微暖色 + 行距微调（不破坏 PaperMod）
+   - 夜间：仅在系统暗色时提升标题/站点名可读性
+   ========================= */
+
+/* 日间：更暖一点的背景（用 PaperMod 变量，不直接改一堆元素） */
+:root {
+  --theme: #f7f1e6;     /* 比纯白更暖 */
+  --main-width: 820px;  /* 版心宽一点更像刊物 */
+}
+
+/* 正文字色：从“黑”变成“深灰”（降低对比度） */
+:root {
+  --primary: #2f3438;    /* 主文字：深灰而非黑 */
+  --secondary: #5f6872;  /* 次级文字 */
+}
+
+/* 日间：行距稍微缩小一点（只改正文区域） */
+.post-content {
+  line-height: 1.4;
+}
+.post-title,
+.page-header h1,
+.logo a{
+  font-weight:700;
+}
+/* 让首页第一篇文章和后面的文章卡片风格统一 */
+.first-entry {
+  background: var(--entry);
+  box-shadow: none;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.first-entry .entry-header h1 {
+  font-size: 2rem;
+}
+
+.first-entry .entry-content {
+  font-size: 1rem;
+  line-height: 1.7;
+}
