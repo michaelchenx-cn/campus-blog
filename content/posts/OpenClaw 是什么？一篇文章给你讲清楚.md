@@ -5,7 +5,7 @@ tags: [AI, Agent, OpenClaw, 人工智能科普]
 description: OpenClaw 是什么？它和 ChatGPT 有什么不同？这篇文章用清晰易懂的方式介绍 OpenClaw 的原理、能力、成本以及使用风险。
 ---
 
-![题图](/blog/images/OpenClaw.png)
+![题图](/blog/images/OpenClaw.jpg)
 
 大语言模型这几年进步超乎所有人想象，ChatGPT、Claude 这些工具已经能很好地完成写作、翻译、总结和问答。
 
